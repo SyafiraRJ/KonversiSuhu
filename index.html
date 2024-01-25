@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alat Konversi Suhu</title>
+    <link rel="stylesheet" href="CSS/suhu.css">
+</head>
+<body>
+    <div class="header">
+        <img src="asset/logo17.png" alt="Logo" class="logo">
+        <h1>Alat Konversi Suhu</h1>
+    </div>
+    <h3>Celcius, Fahrenheit, dan Kelvin</h3>
+    <label for="nomor">Masukkan Suhu:</label>
+    <input type="number" id="nomor">
+    
+    <label for="unit">Pilih Satuan suhu:</label>
+    <select id="unit">
+        <option value="celsius">Celsius</option>
+        <option value="kelvin">Kelvin</option>
+        <option value="fahrenheit">Fahrenheit</option>
+    </select>
+    
+    <button onclick="cekNomor()">Konversi</button>
+    <p id="hasil"></p>
+    <div id="watermark">Created By Syafira Raudhatul Jannah | X RPL 2</div>
+
+    <script src="JS/suhu.js"></script>
+
+</body>
+</html>
